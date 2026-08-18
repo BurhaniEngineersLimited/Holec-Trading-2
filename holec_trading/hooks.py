@@ -18,14 +18,14 @@ app_license = "MIT"
 
 doc_events = {
 	"Lot": {
-		"validate": "holec_trading.holec_trading.doctype.lot.lot.validate_state_transition",
-		"on_update": "holec_trading.holec_trading.doctype.lot.lot.on_lot_state_change",
+		"validate": "holec_trading.doctype.lot.lot.validate_state_transition",
+		"on_update": "holec_trading.doctype.lot.lot.on_lot_state_change",
 	},
 	"Cost Ledger Entry": {
-		"validate": "holec_trading.holec_trading.doctype.cost_ledger_entry.cost_ledger_entry.validate_no_edit_after_post",
+		"validate": "holec_trading.doctype.cost_ledger_entry.cost_ledger_entry.validate_no_edit_after_post",
 	},
 	"Buy Ticket": {
-		"validate": "holec_trading.holec_trading.doctype.buy_ticket.buy_ticket.calculate_estimated_margin",
+		"validate": "holec_trading.doctype.buy_ticket.buy_ticket.calculate_estimated_margin",
 	},
 }
 
@@ -34,6 +34,6 @@ doc_events = {
 # ---------------------------------------------------------------------------
 # scheduler_events = {
 # 	"daily": [
-# 		"holec_trading.holec_trading.tasks.accrue_daily_holding_cost",
+# 		"holec_trading.tasks.accrue_daily_holding_cost",
 # 	]
 # }
