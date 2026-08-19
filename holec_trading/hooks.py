@@ -5,6 +5,7 @@ app_description = "Maize trading system: Lot lifecycle, Cost Ledger, Charge Mast
 app_email = "ops@holec.co.ke"
 app_license = "MIT"
 
+
 # ---------------------------------------------------------------------------
 # Doc Events
 # ---------------------------------------------------------------------------
