@@ -1,6 +1,7 @@
 [
   {
     "doctype": "Charge Master",
+    "name": "Moisture Deduction",
     "charge_name": "Moisture Deduction",
     "direction": "Buy-side",
     "default_borne_by": "Supplier",
@@ -11,6 +12,7 @@
   },
   {
     "doctype": "Charge Master",
+    "name": "Foreign Matter Deduction",
     "charge_name": "Foreign Matter Deduction",
     "direction": "Buy-side",
     "default_borne_by": "Supplier",
@@ -21,6 +23,7 @@
   },
   {
     "doctype": "Charge Master",
+    "name": "Bagging",
     "charge_name": "Bagging",
     "direction": "Buy-side",
     "default_borne_by": "Petty Cash",
@@ -31,6 +34,7 @@
   },
   {
     "doctype": "Charge Master",
+    "name": "Aflatoxin Test",
     "charge_name": "Aflatoxin Test",
     "direction": "Buy-side",
     "default_borne_by": "Supplier",
@@ -41,6 +45,7 @@
   },
   {
     "doctype": "Charge Master",
+    "name": "Transfer Charge",
     "charge_name": "Transfer Charge",
     "direction": "Buy-side",
     "default_borne_by": "Supplier",
@@ -51,6 +56,7 @@
   },
   {
     "doctype": "Charge Master",
+    "name": "Haulage",
     "charge_name": "Haulage",
     "direction": "Buy-side",
     "default_borne_by": "Transporter",
@@ -61,6 +67,7 @@
   },
   {
     "doctype": "Charge Master",
+    "name": "Cess",
     "charge_name": "Cess",
     "direction": "Buy-side",
     "default_borne_by": "Transporter",
@@ -71,6 +78,7 @@
   },
   {
     "doctype": "Charge Master",
+    "name": "Offloading",
     "charge_name": "Offloading",
     "direction": "Sell-side",
     "default_borne_by": "Customer Master",
@@ -81,6 +89,7 @@
   },
   {
     "doctype": "Charge Master",
+    "name": "Transport Loss Beyond Tolerance",
     "charge_name": "Transport Loss Beyond Tolerance",
     "direction": "Buy-side",
     "default_borne_by": "Transporter",
