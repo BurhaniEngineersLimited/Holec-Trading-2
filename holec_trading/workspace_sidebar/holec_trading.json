@@ -1,14 +1,13 @@
 {
  "app": "holec_trading",
- "creation": "2026-08-20 17:13:27.187785",
+ "creation": "2026-08-21 09:45:29.984363",
  "docstatus": 0,
  "doctype": "Workspace Sidebar",
  "idx": 0,
  "items": [
   {
-   "child": 1,
+   "child": 0,
    "collapsible": 1,
-   "icon": "panel-top",
    "indent": 0,
    "keep_closed": 0,
    "label": "Holec Trading",
@@ -18,9 +17,8 @@
    "type": "Link"
   }
  ],
- "modified": "2026-08-20 17:20:44.144260",
+ "modified": "2026-08-21 09:45:29.984363",
  "modified_by": "Administrator",
- "module": "Holec Trading",
  "name": "Holec Trading",
  "owner": "Administrator",
  "standard": 1,
